@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amazon Form</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div>
+      <h1 class="amazon">Amazon Form</h1>
+    </div>
+    <form id="contactFrom" class="amazon-form">
+      <div class="form-group">
+        <label for="name">User Name</label>
+        <input type=" text" id="name" name="name" required />
+      </div>
+
+      <div class="form-group">
+        <label for="email">User Email</label>
+        <input type="text" id="email" name="email" required />
+      </div>
+
+      <div class="form-group">
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="subject" required />
+      </div>
+
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea name="message" id="message" required></textarea>
+      </div>
+
+      <div class="form-group">
+        <button class="amazon-button">Submit</button>
+      </div>
+    </form>
+    <script src="index.js"></script>
+  </body>
+</html>

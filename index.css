@@ -1,0 +1,46 @@
+.amazon {
+  color: red;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-left: 10px;
+  border-radius: 5px solid red;
+}
+
+.amazon-form {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.amazon-form .form-group {
+  margin-bottom: 20px;
+  margin-left: 90px;
+}
+
+.amazon-form label {
+  display: block;
+  font-weight: bold;
+}
+
+.amazon-form input,
+.amazon-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.amazon-button {
+  background-color: #f90;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.amazon-button:hover {
+  background-color: blueviolet;
+}
